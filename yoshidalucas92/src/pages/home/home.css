@@ -1,0 +1,41 @@
+.main-container {
+  align-items: center;
+  background-color: #212121;
+  color: whitesmoke;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  /* margin: auto; */
+  min-height: 90vh;
+  /* width: 70%; */
+}
+
+.content {
+  /* border: black solid 1px; */
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  font-size: 16px;
+  justify-content: space-evenly;
+  margin: 5vh auto;
+  width: 70%;
+}
+
+.profile-picture {
+  /* border: tomato solid 1px; */
+  border-radius: 25%;
+  height: 225px;
+}
+
+.about-me {
+  /* border: tomato solid 1px; */
+  line-height: 1.5em;
+  /* margin-top: 5vh; */
+}
+
+.external-link {
+  color: #44f644;
+  text-decoration: none;
+  margin: auto 0;
+  opacity: 1;
+}

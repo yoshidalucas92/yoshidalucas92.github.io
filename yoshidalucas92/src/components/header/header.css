@@ -1,0 +1,41 @@
+header {
+  align-items: center;
+  background-color: #212121;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  display: flex;
+  flex-flow: row;
+  height: 10vh;
+  font-size: 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.header-content {
+  align-items: center;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  margin: auto;
+  width: 70%;
+}
+
+.teste {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: auto 10px;
+  opacity: 0.3;
+  transition: ease 600ms;
+}
+
+a:hover {
+  opacity: 1;
+  transition: ease 300ms;
+}
